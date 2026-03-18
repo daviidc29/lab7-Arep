@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     container_name: web
     ports:
-      - "8087:6000"
+      - "8087:35000"
   db:
     image: mongo:latest
     container_name: db
